@@ -1,18 +1,18 @@
 apiVersion: v1
 entries:
-  guestbook:
+  nexus-chart:
   - apiVersion: v2
-    appVersion: v4
-    created: "2022-02-13T00:59:49.072228+10:00"
+    appVersion: 1.16.0
+    created: "2022-02-13T01:36:46.756021+10:00"
     dependencies:
-    - name: redis
-      repository: https://charts.bitnami.com/bitnami
-      version: 10.5.x
-    description: This is just a wee babeh to test out the chartin'
-    digest: 49030d8652c8cecd56f888e67a2ffb65ce7ab08840c325cd7c91bb733f5e36ba
-    name: guestbook
+    - name: nexus-repository-manager
+      repository: https://sonatype.github.io/helm3-charts/
+      version: 37.3.x
+    description: Customised nexus repo manager chart
+    digest: 01bd8671547d1ae7d42cc94628d8e77440cca416e2e73040387f5875fc06e0ea
+    name: nexus-chart
     type: application
     urls:
-    - guestbook-1.0.0.tgz
-    version: 1.0.0
-generated: "2022-02-13T00:59:49.068739+10:00"
+    - nexus-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-13T01:36:46.754044+10:00"
