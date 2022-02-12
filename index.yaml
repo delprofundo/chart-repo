@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  guestbook:
+  - apiVersion: v2
+    appVersion: v4
+    created: "2022-02-13T00:59:49.072228+10:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.5.x
+    description: This is just a wee babeh to test out the chartin'
+    digest: 49030d8652c8cecd56f888e67a2ffb65ce7ab08840c325cd7c91bb733f5e36ba
+    name: guestbook
+    type: application
+    urls:
+    - guestbook-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-02-13T00:59:49.068739+10:00"
