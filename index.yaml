@@ -3,9 +3,37 @@ entries:
   nexus-repository-manager:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2022-02-13T18:36:19.559051+10:00"
+    created: "2022-02-13T20:51:50.168216+10:00"
     description: Sonatype Nexus Repository Manager - Groklobster Instance
-    digest: 1578e93a90bec520992225784eca5e241abc5643df45f08fc354ebcfefe6bef8
+    digest: dc028ecdd5a6377c6daa2e33dc46288babeac8df28083793be625ebc51268860
+    home: https://github.com/hypermedia-tech/nexus-chart
+    icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
+    keywords:
+    - artifacts
+    - dependency
+    - management
+    - sonatype
+    - nexus
+    - repository
+    - quickstart
+    - ci
+    - repository-manager
+    - nexus3
+    maintainers:
+    - email: support@hypermedia.tech
+      name: groklobster
+    name: nexus-repository-manager
+    sources:
+    - https://github.com/hypermedia-tech/nexus-chart
+    type: application
+    urls:
+    - nexus-repository-manager-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2022-02-13T20:51:50.167123+10:00"
+    description: Sonatype Nexus Repository Manager - Groklobster Instance
+    digest: dfd384a1868c11434fbb6b030813bfdc3509083b963808eb2ba0e8b3a716c116
     home: https://github.com/hypermedia-tech/nexus-chart
     icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
     keywords:
@@ -29,4 +57,4 @@ entries:
     urls:
     - nexus-repository-manager-1.0.1.tgz
     version: 1.0.1
-generated: "2022-02-13T18:36:19.55783+10:00"
+generated: "2022-02-13T20:51:50.165366+10:00"
