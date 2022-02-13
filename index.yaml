@@ -3,9 +3,9 @@ entries:
   nexus-repository-manager:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2022-02-13T18:28:53.174125+10:00"
+    created: "2022-02-13T18:36:19.559051+10:00"
     description: Sonatype Nexus Repository Manager - Groklobster Instance
-    digest: 8a993b3a51d17dec378fba3470c52d20dcc6b07bc5b22a49c62d84380d61e62c
+    digest: 1578e93a90bec520992225784eca5e241abc5643df45f08fc354ebcfefe6bef8
     home: https://github.com/hypermedia-tech/nexus-chart
     icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
     keywords:
@@ -29,4 +29,4 @@ entries:
     urls:
     - nexus-repository-manager-1.0.1.tgz
     version: 1.0.1
-generated: "2022-02-13T18:28:53.173021+10:00"
+generated: "2022-02-13T18:36:19.55783+10:00"
