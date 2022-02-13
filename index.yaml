@@ -3,9 +3,9 @@ entries:
   nexus-repository-manager:
   - apiVersion: v2
     appVersion: 3.37.3
-    created: "2022-02-13T17:46:05.189806+10:00"
+    created: "2022-02-13T18:03:49.978573+10:00"
     description: Sonatype Nexus Repository Manager - Universal Binary repository
-    digest: 5fa72f46872df0df5af598b03d9c1dfc132822eefec24e7a451891461248e909
+    digest: 7ee4986b78838335e4d7c9ad6ef0a58df957be10033bbe8407df57620231c092
     home: https://www.sonatype.com/nexus-repository-oss
     icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
     keywords:
@@ -29,4 +29,4 @@ entries:
     urls:
     - nexus-repository-manager-37.3.1.tgz
     version: 37.3.1
-generated: "2022-02-13T17:46:05.188735+10:00"
+generated: "2022-02-13T18:03:49.97701+10:00"
