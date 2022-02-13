@@ -1,18 +1,32 @@
 apiVersion: v1
 entries:
-  nexus-chart:
+  nexus-repository-manager:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-02-13T17:20:00.969691+10:00"
-    dependencies:
-    - name: nexus-repository-manager
-      repository: https://sonatype.github.io/helm3-charts/
-      version: 37.3.x
-    description: Customised nexus repo manager chart
-    digest: 2bcfcc8a9d9fbae2dcaeb7c383248b5c721baae5c02c6c88344ef8e4d71cb353
-    name: nexus-chart
+    appVersion: 3.37.3
+    created: "2022-02-13T17:46:05.189806+10:00"
+    description: Sonatype Nexus Repository Manager - Universal Binary repository
+    digest: 5fa72f46872df0df5af598b03d9c1dfc132822eefec24e7a451891461248e909
+    home: https://www.sonatype.com/nexus-repository-oss
+    icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
+    keywords:
+    - artifacts
+    - dependency
+    - management
+    - sonatype
+    - nexus
+    - repository
+    - quickstart
+    - ci
+    - repository-manager
+    - nexus3
+    maintainers:
+    - email: support@sonatype.com
+      name: Sonatype
+    name: nexus-repository-manager
+    sources:
+    - https://github.com/sonatype/nexus-public
     type: application
     urls:
-    - nexus-chart-0.1.0.tgz
-    version: 0.1.0
-generated: "2022-02-13T17:20:00.968331+10:00"
+    - nexus-repository-manager-37.3.1.tgz
+    version: 37.3.1
+generated: "2022-02-13T17:46:05.188735+10:00"
