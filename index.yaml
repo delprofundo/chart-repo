@@ -3,16 +3,16 @@ entries:
   nexus-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-13T01:36:46.756021+10:00"
+    created: "2022-02-13T17:20:00.969691+10:00"
     dependencies:
     - name: nexus-repository-manager
       repository: https://sonatype.github.io/helm3-charts/
       version: 37.3.x
     description: Customised nexus repo manager chart
-    digest: 01bd8671547d1ae7d42cc94628d8e77440cca416e2e73040387f5875fc06e0ea
+    digest: 2bcfcc8a9d9fbae2dcaeb7c383248b5c721baae5c02c6c88344ef8e4d71cb353
     name: nexus-chart
     type: application
     urls:
     - nexus-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-13T01:36:46.754044+10:00"
+generated: "2022-02-13T17:20:00.968331+10:00"
